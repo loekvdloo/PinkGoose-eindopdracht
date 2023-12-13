@@ -1,0 +1,781 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Lato", sans-serif;
+}
+body {
+  background-color: rgb(8, 8, 15);
+}
+input {
+  border: none;
+}
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(8, 8, 15);
+}
+nav div {
+  width: 35%;
+  height: 100px;
+  background-color: rgb(8, 8, 15);
+}
+/* header */
+/* login button */
+
+.button {
+  margin-left: 200px;
+  width: 30px;
+  height: 10px;
+  border-radius: 5px;
+  border-width: 3px;
+  background-color: rgb(8, 8, 15);
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  line-height: 9px;
+  font-family: "Montserrat", sans-serif;
+}
+.logo {
+  justify-content: center;
+  display: flex;
+  height: 25px;
+  padding: 10px;
+}
+/* buttons header */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(8, 8, 15);
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+}
+li {
+  display: flex;
+  justify-content: center;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #333;
+}
+/* einde header */
+/* section 1 */
+/* tekst inleiding */
+h1 {
+  font-size: 50px;
+}
+.inleiding {
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px;
+}
+h2 {
+  text-align: center;
+  flex-direction: column;
+  padding: 40px;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+/* roze knop getstarted */
+.getstarted {
+  margin-top: 40px;
+  border-radius: 10px;
+  background-color: rgb(206, 170, 255);
+  color: black;
+  padding: 14px 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+}
+/* pijltjes tussen inleiding en projectoptions */
+.pijltjes {
+  margin-top: 132px;
+  margin-bottom: 57px;
+}
+/* einde section 1 */
+/* section 3 */
+.sterretjeproject {
+  margin-right: 600px;
+  margin-bottom: -75px;
+}
+h3 {
+  margin-top: 20px;
+  font-size: 36px;
+}
+/* sterretje boven projectoptions */
+
+/* tekst projectoptions */
+.project {
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding: 10px;
+}
+/* einde section 3 */
+/* section 4 */
+/* blokken projectoptions */
+.projectoptions {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 700px;
+  gap: 24px;
+}
+.Investment {
+  margin-top: 20px;
+  border-radius: 100px;
+  background-color: rgb(23, 23, 23);
+  color: rgb(255, 180, 211);
+  padding: 3px 15px;
+  font-size: 15px;
+}
+.Startup {
+  margin-top: 20px;
+  border-radius: 100px;
+  background-color: rgb(23, 23, 23);
+  color: rgb(255, 194, 76);
+  padding: 3px 15px;
+  font-size: 15px;
+}
+.Servece {
+  margin-top: 20px;
+  border-radius: 100px;
+  background-color: rgb(23, 23, 23);
+  color: rgb(211, 153, 247);
+  padding: 3px 15px;
+  font-size: 15px;
+}
+.Community {
+  margin-top: 20px;
+  border-radius: 100px;
+  background-color: rgb(23, 23, 23);
+  color: rgb(119, 230, 255);
+  padding: 3px 15px;
+  font-size: 15px;
+}
+.Impact {
+  margin-top: 20px;
+  border-radius: 100px;
+  background-color: rgb(23, 23, 23);
+  color: rgb(35, 201, 222);
+  padding: 3px 15px;
+  font-size: 15px;
+}
+.DeFi {
+  margin-top: 20px;
+  border-radius: 100px;
+  background-color: rgb(23, 23, 23);
+  color: rgb(255, 158, 158);
+  padding: 3px 15px;
+  font-size: 15px;
+}
+.more {
+  margin-top: 20px;
+  border-radius: 100px;
+  background-color: rgb(23, 23, 23);
+  color: rgb(112, 127, 141);
+  padding: 3px 15px;
+  font-size: 15px;
+}
+/* einde section 4 */
+/* section 5 */
+/* plaatje projectlauch */
+.projectlaunch {
+  display: flex;
+  padding: 44px;
+  flex-direction: column;
+  text-align: center;
+}
+.sterretjeslinks {
+  width: 65%;
+  height: 65%;
+}
+/* tekst onder plaatje */
+span {
+  background-color: rgb(255, 180, 211);
+  margin-top: -13px;
+  border-radius: 15px;
+  height: 25px;
+  width: 250px;
+  align-self: center;
+  line-height: 25px;
+  font-family: "Montserrat", sans-serif;
+}
+/* einde section 5 */
+/* section 6 */
+/* tekst werktaken */
+.werktaken {
+  display: flex;
+  font-size: 35px;
+  padding: 134px;
+  flex-direction: column;
+}
+.werktakenworden th {
+  padding-top: 20px;
+  color: #37424d;
+}
+/* voor witte tekst te maken */
+#journey {
+  color: #e5e5e5;
+}
+/* voor roze tekst te maken */
+#marketing {
+  color: #ffb4d3;
+}
+.sterretjewerktaken {
+  margin-left: 600px;
+}
+
+/* einde section 6 */
+/* section 7 */
+.works {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 200px;
+  padding-top: 40px;
+}
+/* tekst works */
+h5 {
+  color: white;
+  font-size: 40px;
+  padding-top: 75px;
+}
+/*  sterretjes links van works */
+.sterretjeworkrechts img {
+  display: flex;
+  padding-top: 35px;
+  padding-right: 100px;
+  width: 50px;
+}
+.sterretjeworkrechts {
+  width: 200px;
+}
+/*  sterretjes recht van works */
+.sterretjeworklinks img {
+  display: flex;
+  padding-left: 45px;
+  margin-top: 50px;
+  width: 40px;
+}
+.sterretjeworklinks {
+  width: 200px;
+}
+/* einde section 7 */
+/* section 8 */
+/* programma's onder works with */
+.programmas {
+  display: flex;
+  gap: 32px;
+  padding-bottom: 220px;
+}
+.ethereum {
+  height: 150px;
+  width: 150px;
+  border: 2px solid #2a3744;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  background-color: #121e28;
+}
+.ethereum img {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  align-self: center;
+  margin-top: 45px;
+}
+
+h6 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 23px;
+  margin-top: 60px;
+}
+/* einde section 8 */
+/* section 9 */
+.team {
+  color: white;
+  font-size: 47px;
+  flex-direction: column;
+}
+.steps {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 45px;
+}
+/* foto's personen */
+.personen {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 50px;
+}
+/* tekst onder hooft personen */
+.options {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+/* einde secton 9 */
+/* section 10 */
+.nieuws {
+  margin-top: 216px;
+}
+.mailblok {
+  background-color: #121e28;
+  width: 1140px;
+  height: 390px;
+  border-radius: 30px;
+  border: 2px solid #2a3744;
+}
+.digest {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  font-size: 64px;
+  margin-top: 40px;
+  margin-left: 85px;
+  width: 1000px;
+}
+.news {
+  color: #9aafc3;
+  display: flex;
+  justify-content: center;
+  font-size: 44px;
+  margin-top: 26px;
+  padding-bottom: 68px;
+  font-family: "Montserrat", sans-serif;
+}
+/* invul vak mail */
+.invoermail {
+  display: flex;
+  justify-content: center;
+}
+.mail {
+  background-color: #121e28;
+  padding: 20px;
+  border: 2px solid #2a3744;
+  width: 506px;
+  border-radius: 15px;
+}
+/* button mail */
+#Subscribe {
+  background-color: #ceaaff;
+  font-weight: 800;
+  border-radius: 15px;
+  width: 130px;
+  height: 60px;
+}
+/* einde section 10 */
+/* section 11 */
+.bedrijven {
+  display: flex;
+  flex-direction: column;
+  padding-top: 21px;
+}
+.presstekst {
+  color: white;
+  font-size: 64px;
+}
+.seeall {
+  color: #8395a7;
+  font-size: 30px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: end;
+}
+/* sterretje rechts van tekst */
+.bedrijven img {
+  padding-top: 70px;
+  padding-left: 250px;
+}
+/* css voor de drie blokjes */
+.hoofttekst {
+  padding-left: 28px;
+  padding-top: 21px;
+  padding-bottom: 9px;
+  padding-right: 35px;
+  font-size: 23px;
+  font-weight: 800;
+}
+.bijtekst {
+  padding-top: 9px;
+  font-size: 18px;
+  padding-left: 28px;
+  padding-right: 60px;
+}
+.read {
+  padding-top: 65px;
+  padding-left: 28px;
+  font-size: 13px;
+  font-weight: 600;
+}
+/* blok decrypt */
+.press {
+  display: flex;
+  gap: 28px;
+}
+.Decrypt {
+  background-color: #77e6ff;
+  width: 361px;
+  border-radius: 15px;
+  margin-top: 32px;
+}
+.Decrypt img {
+  padding-left: 28px;
+  padding-top: 30px;
+}
+
+/* blok blockworks */
+.Blockworks {
+  background-color: #e2c1f9;
+  width: 361px;
+  border-radius: 15px;
+  margin-top: 32px;
+}
+.Blockworks img {
+  padding-left: 28px;
+  padding-top: 30px;
+}
+/* blok techcrunch */
+.techcrunch {
+  background-color: #dbe268;
+  width: 361px;
+  border-radius: 15px;
+  margin-top: 32px;
+}
+.techcrunch img {
+  padding-left: 28px;
+  padding-top: 30px;
+}
+
+/* einde section 11 */
+/* section 12 */
+/* blok podcasts */
+.podcast {
+  padding-top: 21px;
+  padding-bottom: 200px;
+}
+/*  sterretje rechts podcast */
+.sterretjespodcast {
+  margin-left: -120px;
+}
+.podcasts {
+  color: white;
+  padding-top: 80px;
+  font-size: 64px;
+}
+.seeallpodcast {
+  color: #8395a7;
+  display: flex;
+  font-size: 30px;
+  padding-top: 20px;
+  justify-content: flex-end;
+}
+.podcast img {
+  display: flex;
+  padding-top: 100px;
+}
+.allpodcast {
+  display: flex;
+  gap: 28px;
+}
+/* podcast 1 */
+
+.podcast1 {
+  background-color: #121e28;
+  width: 361px;
+  border-radius: 15px;
+  margin-top: 32px;
+  border: 3px solid #2a3744;
+}
+.podcast1 img {
+  display: flex;
+  justify-content: center;
+  padding-left: 28px;
+  padding-top: 30px;
+}
+.podcasthoofttekst {
+  display: flex;
+  color: white;
+  padding-left: 28px;
+  padding-top: 21px;
+  padding-bottom: 9px;
+  padding-right: 35px;
+  font-size: 23px;
+  font-weight: 800;
+}
+.podcastbijtekst {
+  display: flex;
+  color: #e2e2e2;
+  padding-top: 9px;
+  font-size: 18px;
+  padding-left: 28px;
+  padding-right: 60px;
+}
+.listen {
+  display: flex;
+  color: white;
+  padding-top: 65px;
+  padding-left: 28px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+/* einde seciton 12 */
+/* section 13 */
+.info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+/* tekst info */
+.hoofttekstinfo {
+  color: white;
+  font-size: 70px;
+  margin-top: 100px;
+}
+.bijtekstinfo {
+  margin-top: 18px;
+  color: #5a6c7e;
+  font-size: 64px;
+}
+.bloksamen {
+  display: flex;
+  gap: 32px;
+  padding-top: 52px;
+  padding-bottom: 200px;
+}
+/* telegram blok */
+.telegram {
+  margin-top: 40px;
+  text-align: center;
+  width: 280px;
+  height: 84px;
+  border-radius: 16px;
+  background-color: #ffc803;
+  color: black;
+  padding: 14px 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+}
+.telegram img {
+  display: flex;
+  padding-top: 16px;
+  padding-left: 20px;
+}
+.telegramtekst {
+  display: flex;
+  font-size: 24px;
+  padding-left: 94px;
+  margin-top: -55px;
+}
+.superdao_team {
+  display: flex;
+  padding-left: 94px;
+}
+/* mail blok */
+.email {
+  margin-top: 40px;
+  text-align: center;
+  width: 280px;
+  height: 84px;
+  border-radius: 16px;
+  background-color: #e2c1f9;
+  color: black;
+  padding: 14px 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+}
+.email img {
+  display: flex;
+  padding-top: 16px;
+  padding-left: 20px;
+}
+.emailtekst {
+  display: flex;
+  font-size: 24px;
+  padding-left: 94px;
+  margin-top: -55px;
+}
+.superdaoco {
+  display: flex;
+  padding-left: 94px;
+}
+/* einde section 13 */
+/* section14 */
+.heroes {
+  font-family: "Montserrat", sans-serif;
+}
+.ourheroes {
+  color: white;
+  display: flex;
+  padding-bottom: 115px;
+  padding-top: 150px;
+  justify-content: center;
+  font-size: 60px;
+}
+.heroesbloks {
+  display: flex;
+  gap: 20px;
+}
+/* blok johndoe */
+.hero {
+  width: 352px;
+  height: 300px;
+  border-radius: 15px;
+  padding-top: 16px;
+  background-color: #ffb4d3;
+}
+.hero img {
+  padding-left: 90px;
+}
+.naam {
+  font-weight: 800;
+  padding-top: 30px;
+  padding-left: 28px;
+}
+.teksthero {
+  padding-top: 5px;
+  padding-left: 28px;
+}
+.contact {
+  display: flex;
+  justify-content: end;
+  padding-right: 19px;
+  padding-top: 17px;
+  font-weight: 800;
+}
+/* einde section 14 */
+/* seciton 15 */
+.formulier {
+  background-color: #121e28;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  border-radius: 15px;
+  border: 2px solid;
+  border-color: #3d4c5b;
+  height: 1000px;
+  width: 942px;
+  margin-bottom: 200px;
+}
+/* tekst boven het formulier */
+.tekstformulier {
+  display: flex;
+  padding-top: 40px;
+  color: white;
+  font-size: 60px;
+  justify-content: center;
+}
+
+.invul {
+  display: flex;
+  flex-direction: column;
+  margin-left: 218px;
+  margin-right: 218px;
+  gap: 30px;
+}
+/* plek voor email */
+#youremail {
+  background-color: #121e28;
+  border: 2px solid;
+  border-color: #3d4c5b;
+  border-radius: 15px;
+  width: 480px;
+  padding: 20px;
+  color: white;
+}
+/* plek voor email */
+#yourname {
+  background-color: #121e28;
+  border: 2px solid;
+  border-color: #3d4c5b;
+  border-radius: 15px;
+  padding: 20px;
+  width: 480px;
+  color: white;
+}
+/* plek voor bericht */
+#yourmessage {
+  background-color: #121e28;
+  border-color: #3d4c5b;
+  border-radius: 15px;
+  padding: 20px;
+  width: 480px;
+  height: 300px;
+  color: white;
+  resize: none;
+}
+/* options vak */
+.kleuren {
+  background-color: #121e28;
+  border-color: #3d4c5b;
+  border-radius: 15px;
+  width: 520px;
+  padding: 20px;
+  color: white;
+}
+.sendbutton {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: -200px;
+  margin-top: 140px;
+}
+/* send button */
+#send {
+  background-color: #ceaaff;
+  font-weight: 800;
+  border-radius: 15px;
+  width: 130px;
+  height: 60px;
+  font-size: 20px;
+}
+/* einde section 15 */
+/* footer */
+footer {
+  background-color: #121e28;
+  width: 100vw;
+  height: 168px;
+  bottom: 0px;
+  font-family: "Montserrat", sans-serif;
+}
+/* logo's website's */
+.socials {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  padding-top: 56px;
+  margin-right: 48px;
+}
+/* tekst footer */
+.tekstfooter {
+  color: white;
+  display: flex;
+  gap: 56px;
+  font-size: 27px;
+  justify-content: center;
+  margin-top: -40px;
+}
+#legal {
+  color: yellow;
+}
+/* einde footer */
